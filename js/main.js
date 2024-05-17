@@ -73,13 +73,13 @@ $(document).ready(function(){
         	theme:"light-thin",
         	scrollbarPosition: "inside",
         	autoHideScrollbar: true,
-        	scrollButtons: {enable: true}
+        	scrollButtons: {enable: false}
         });
         $(".dashboard-contentPage, .Notifications-body").mCustomScrollbar({
         	theme:"dark-thin",
         	scrollbarPosition: "inside",
         	autoHideScrollbar: true,
-        	scrollButtons: {enable: true}
+        	scrollButtons: {enable: false}
         });
     });
 })(jQuery);
