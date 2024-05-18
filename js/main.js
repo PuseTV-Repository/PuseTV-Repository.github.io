@@ -67,19 +67,20 @@ $(document).ready(function(){
 		$('#Dialog-Help').modal('show');
 	});
 });
+
 (function($){
     $(window).on("load",function(){
         $(".dashboard-sideBar-ct").mCustomScrollbar({
         	theme:"light-thin",
         	scrollbarPosition: "inside",
         	autoHideScrollbar: true,
-        	scrollButtons: {enable: false}
+        	scrollButtons: {enable: false} // Desactivado para mejorar la velocidad
         });
         $(".dashboard-contentPage, .Notifications-body").mCustomScrollbar({
         	theme:"dark-thin",
         	scrollbarPosition: "inside",
-        	autoHideScrollbar: true,
-        	scrollButtons: {enable: false}
+        	autoHideScrollbar: true, 
+        	scrollButtons: {enable: false} // Desactivado para mejorar la velocidad
         });
     });
 })(jQuery);
